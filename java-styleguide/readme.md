@@ -365,6 +365,25 @@ logical ordering.
 When a class has multiple constructors, or multiple methods with the
 same name, these appear sequentially, with no intervening members.
 
+##### Group fields and methods
+
+For consistency, consider ordering public/private static/instance
+fields/methods as follows:
+
+- "public-static-field"
+- "protected-static-field"
+- "private-static-field"
+- "public-instance-field"
+- "protected-instance-field"
+- "private-instance-field"
+- "constructor"
+- "public-instance-method"
+- "protected-instance-method"
+- "private-instance-method"
+- "public-static-method"
+- "protected-static-method"
+- "private-static-method"
+
 ## Formatting
 
 Terminology Note: block-like construct refers to the body of a class,
